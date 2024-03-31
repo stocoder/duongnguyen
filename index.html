@@ -62,10 +62,11 @@
     </div>
 
     <script src="./main.js"></script>
-    <audio controls autoplay style="display:none;">
-  <source src="playback.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  var audio = new Audio("playback.mp3");
+  audio.play();
+</script>
 </body>
 
 </html>
